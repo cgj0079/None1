@@ -2,9 +2,9 @@ from flask import Flask, request, jsonify
 from pymongo import MongoClient
 
 app = Flask(__name__)
-client = MongoClient('mongodb://localhost:27017/')
-db = client['your_database_name']
-collection = db['your_collection_name']
+client = MongoClient('mongodb+srv://cgj0079:00791004@cluster0.p6xynpw.mongodb.net/')
+db = client['science']
+collection = db['name']
 
 @app.route('/')
 def index():
