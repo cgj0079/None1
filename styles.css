@@ -115,8 +115,9 @@
         .product>button {
                 background: none;
                 border: none;
-                width: 150px;
-                height: 50px;
+                width: 135px;
+                height: 12px;
                 color: black;
-                font-size: 2em;
+                font-size: 1em;
+                text-align: left;
         }
