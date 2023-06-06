@@ -52,14 +52,6 @@
             margin-top: 0;
         }
 
-        /* 푸터 스타일 */
-        footer {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-
         /* 추가 스타일 */
         .btn {
             height: 15px;
